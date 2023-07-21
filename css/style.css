@@ -381,6 +381,18 @@ background-clip: text;
     font-weight: 500;
 }
 
+.footer-social{
+    /* gap: 20px; */
+}
+
+.y2-img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+
+}
+
+
 .copywrite{
     color: #fff;
     font-size:12px ;
@@ -391,6 +403,8 @@ background-clip: text;
 
 
 @media screen and (max-width:576px){
+/* 
+    header related */
     .nav, ul{
         height: 30vh;
         flex-direction: column;
@@ -415,6 +429,8 @@ background-clip: text;
         font-size: 5px;
     }
 
+    /* banner related */
+
     .banner{
         flex-direction: column;
         /* width: 100%; */
@@ -429,11 +445,8 @@ background-clip: text;
         width: 350px;
         height: 300px;
     }
-    /* .online-text h2{
-        font-size: 20px;
-        font-weight: 700;
-    }
-   */
+   
+    /* online games related */
 
    .online-container{
     padding: 50px 10px;
@@ -484,6 +497,8 @@ background-clip: text;
     display: inline;
    }
 
+   /* play instantly related */
+
    .play{
     flex-direction: column;
     padding:0px 10px ;
@@ -521,6 +536,8 @@ background-clip: text;
     font-size: 10px;
 }
 
+/* game list related */
+
 .option{
     padding: 50px 10px;
 }
@@ -539,16 +556,13 @@ background-clip: text;
     margin-top: 10px;
 }
 
+/* footer related */
+
 .footer{
     padding: 50px 500px;
     height: 180vh;
     margin-right: 300px;
 }
 
-.footer-top-link{
-    display: flex;
-    /* grid-template-columns: repeat(3,1fr); */
-    padding: 0px 00px;
-}
 
 }
